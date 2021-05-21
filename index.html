@@ -16,8 +16,39 @@
 
     gtag('config', 'G-FE3FS3RT9D');
   </script>
+  <!-- End Google Analytics -->
 
 
+
+
+
+  <meta charset="UTF-8"> <!-- UTF-8 pro češtinu-->
+
+
+
+
+
+
+  <script>  //pokud zjistí, že používá ie, zeptá se ho, proč to jako dělá
+    var ua = window.navigator.userAgent;
+    var isIE = /MSIE|Trident/.test(ua);
+
+    if (isIE) {
+      alert('Wtf, ty jako vážně ještě používáš Internet Explorer?! Copak ti na tom v dnešní době ještě dobře fungují stránky? Jdi si radši stáhnout Chrome (nebo cokoliv jinýho, snad všechno je lepší, než IE)');
+      if (window.confirm('Chceš přesměrovat na stránku na stažení Chromu?')) {
+        window.location.href = 'https://www.google.com/chrome/browser/index.html';
+      }
+      else {
+        if (window.confirm('To se ti ale nebude moje stránka zobrazovat správně a většina věcí nebude fungovat, nebo bude chybět úplně. Rozmyslel/a sis to?')) {
+          window.location.href = 'https://www.google.com/chrome/browser/index.html';
+        }
+        else {
+          alert('No co se dá dělat, tvoje chyba...');
+        }
+      }
+    }
+
+  </script>
 
 
 
@@ -28,6 +59,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+<br><img src="loading.gif" width="50" height="50"></br>
 
 <body style="background-color: #2C2F33; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; text-align: center">
   <span style="font-size: 400%"><b>Coming soon!</b></span><br><br>
