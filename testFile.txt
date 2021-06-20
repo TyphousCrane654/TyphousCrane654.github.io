@@ -1,1 +1,3 @@
-very gut text fajl
+{
+"text": "very gut text fajl"
+}
