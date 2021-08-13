@@ -1,0 +1,5 @@
+SEŘAZENO PODLE PRIORITY
+-text na hlavní stránce
+-favicons (prvně dodělat logo)
+-přidat zpět opatření proti ie (nejlépe nějak inteligentněji a prostě to lépe vyřešit, css, ...)
+-404 stránka (glitch)
