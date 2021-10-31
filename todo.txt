@@ -4,3 +4,7 @@ SEŘAZENO PODLE PRIORITY
 -favicons (prvně dodělat logo)
 -přidat zpět opatření proti ie (nejlépe nějak inteligentněji a prostě to lépe vyřešit, css, ...)
 -404 stránka (glitch)
+-twemoji
+
+Minecraft část:
+-color cody - všech 16 barev - tabulka s & color code, motd color code, rgb code, hex code a minecraft název; řádky budou vybarvené tou barvou; po kliknutí na buňku v tabulce se obsah zkopíruje
